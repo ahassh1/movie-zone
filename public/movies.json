@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Exorcist: Believer",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/qVKirUdmoex8SdfUk8WDDWwrcCh.jpg",
+    "description": "When two girls disappear into the woods and return possessed, their families confront pure evil.",
+    "director": "David Gordon Green",
+    "cast": "Leslie Odom Jr., Ellen Burstyn"
+  },
+  {
+    "id": 2,
+    "title": "Talk to Me",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,4d1e62)/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+    "description": "A group of friends discover how to conjure spirits using an embalmed hand - with terrifying consequences.",
+    "director": "Danny Philippou",
+    "cast": "Sophie Wilde, Joe Bird"
+  },
+  {
+    "id": 3,
+    "title": "Evil Dead Rise",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+    "description": "A twisted tale of two estranged sisters whose reunion is cut short by demonic forces.",
+    "director": "Lee Cronin",
+    "cast": "Lily Sullivan, Alyssa Sutherland"
+  },
+  {
+    "id": 4,
+    "title": "Smile",
+    "year": 2022,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,ff0000)/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+    "description": "After witnessing a bizarre traumatic incident, a doctor becomes convinced something supernatural is haunting her.",
+    "director": "Parker Finn",
+    "cast": "Sosie Bacon, Kyle Gallner"
+  },
+  {
+    "id": 5,
+    "title": "The Nun II",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,4b0082)/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg",
+    "description": "1956 France - a priest is murdered and evil is spreading. Sister Irene faces Valak again.",
+    "director": "Michael Chaves",
+    "cast": "Taissa Farmiga, Bonnie Aarons"
+  },
+  {
+    "id": 6,
+    "title": "M3GAN",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,00bfff)/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
+    "description": "A robotics engineer creates an AI doll that becomes violently protective of her orphaned niece.",
+    "director": "Gerard Johnstone",
+    "cast": "Allison Williams, Violet McGraw"
+  },
+  {
+    "id": 7,
+    "title": "Barbarian",
+    "year": 2022,
+    "image": "https://i.pinimg.com/736x/6f/41/e6/6f41e6a4da7b3ce883a67d6a02d8ed62.jpg",
+    "description": "A woman discovers the rental home she booked is already occupied by a stranger with a terrifying secret.",
+    "director": "Zach Cregger",
+    "cast": "Georgina Campbell, Bill Skarsgård"
+  },
+  {
+    "id": 8,
+    "title": "X",
+    "year": 2022,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/woTQx9Q4b8aO13jR9dsj8C9JESy.jpg",
+    "description": "In 1979, a group of young filmmakers set out to make an adult film on a rural Texas farm.",
+    "director": "Ti West",
+    "cast": "Mia Goth, Jenna Ortega"
+  },
+  {
+    "id": 9,
+    "title": "Pearl",
+    "year": 2022,
+    "image": "https://alternativemovieposters.com/wp-content/uploads/2024/02/Alex-Craiu_Pearl.jpg",
+    "description": "Trapped on her family's isolated farm, Pearl must tend to her ailing father under her mother's watch.",
+    "director": "Ti West",
+    "cast": "Mia Goth, David Corenswet"
+  },
+  {
+    "id": 10,
+    "title": "The Black Phone",
+    "year": 2022,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,4b0082)/p9ZUzCyy9wRTDuuQexkQ78R2BgF.jpg",
+    "description": "A kidnapped boy receives calls on a disconnected phone from the killer's previous victims.",
+    "director": "Scott Derrickson",
+    "cast": "Ethan Hawke, Mason Thames"
+  },
+  {
+    "id": 11,
+    "title": "Hereditary",
+    "year": 2018,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,556b2f)/lHV8HHlhwNup2VbpiACtlKzaGIQ.jpg",
+    "description": "After the death of her secretive grandmother, a woman's family begins unraveling terrifying secrets.",
+    "director": "Ari Aster",
+    "cast": "Toni Collette, Alex Wolff"
+  },
+  {
+    "id": 12,
+    "title": "The Conjuring",
+    "year": 2013,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+    "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence.",
+    "director": "James Wan",
+    "cast": "Vera Farmiga, Patrick Wilson"
+  }
+]
