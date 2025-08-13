@@ -1,8 +1,9 @@
 import React from "react";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar p-0 bg-base-100 shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,33 +46,47 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="font-bold text-xl">
+          Movie<span className="text-orange-500">Zone</span>
+        </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+
+      <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <NavLink
+              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
+              to="/"
+            >
+              Home
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
+              to="/about"
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
+            <NavLink
+              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
+              to="/cart"
+            >
+              Cart
+            </NavLink>
           </li>
           <li>
-            <a>Item 3</a>
+            <NavLink
+              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
+              to="/favorite"
+            >
+              Favorite
+            </NavLink>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
       </div>
     </div>
   );
