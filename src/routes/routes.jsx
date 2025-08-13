@@ -1,28 +1,34 @@
 import { createBrowserRouter } from "react-router";
 import Favorites from "../Favorites";
 import Home from "../pages/Home";
+import About from "../pages/About";
+import PhoneDetails from "../pages/PhoneDetails";
 import MainLayout from "../layouts/MainLayout";
+import ErrorPage from "../pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
-    errorElement: <h1> error</h1>,
+    errorElement: <ErrorPage />,
 
     children: [
       {
-        path: "/",
-        element: <Home />,
+        // path: "/", or
+        index: true,
+        Component: Home,
       },
       {
         path: "/favorites",
         Component: Favorites,
-        children: [
-          {
-            path: "more-nested",
-            element: <p>this is inside favorites</p>,
-          },
-        ],
+      },
+      {
+        path: "/about",
+        Component: About,
+      },
+      {
+        path: "/phone-details",
+        element: <PhoneDetails />,
       },
     ],
   },

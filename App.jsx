@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <Navbar>this is navbar</Navbar>
-      {/* placeholder Componen */}
+      {/* placeholder Component */}
       <Outlet />
       <Footer> this is footer</Footer>
     </>
