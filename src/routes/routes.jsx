@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router";
-import Favorites from "../Favorites";
+import Favorites from "../pages/Favorites";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import PhoneDetails from "../pages/PhoneDetails";
@@ -14,13 +14,13 @@ const router = createBrowserRouter([
 
     children: [
       {
-        // path: "/", or
-        index: true,
+        // index: true, or
+        path: "/",
         Component: Home,
       },
       {
         path: "/favorites",
-        Component: Favorites,
+        element: <Favorites />,
       },
       {
         path: "/about",
