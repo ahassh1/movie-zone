@@ -1,12 +1,14 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
+import { MdFavorite } from "react-icons/md";
+import { BiSolidCameraMovie } from "react-icons/bi";
 
 const Navbar = () => {
   return (
     <div className="navbar p-0 bg-base-100 shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="p-2 lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -28,21 +30,45 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-700" : " "
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-700" : " "
+                }
+                to="/about"
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-700" : " "
+                }
+                to="/cart"
+              >
+                <BiSolidCameraMovie size={20} />
+              </NavLink>
             </li>
             <li>
-              <a>Item 3</a>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "text-indigo-700" : " "
+                }
+                to="/favorite"
+              >
+                <MdFavorite size={20} />
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -75,7 +101,7 @@ const Navbar = () => {
               className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
               to="/cart"
             >
-              Cart
+              <BiSolidCameraMovie size={20} />
             </NavLink>
           </li>
           <li>
@@ -83,7 +109,7 @@ const Navbar = () => {
               className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
               to="/favorite"
             >
-              Favorite
+              <MdFavorite size={20} />
             </NavLink>
           </li>
         </ul>
