@@ -1,14 +1,14 @@
-import "./App.css";
+// import "./App.css";
 
-function App() {
-  return (
-    <>
-      <Navbar>this is navbar</Navbar>
-      {/* placeholder Component */}
-      <Outlet />
-      <Footer> this is footer</Footer>
-    </>
-  );
-}
+// function App() {
+//   return (
+//     <>
+//       <Navbar>this is navbar</Navbar>
 
-export default App;
+//       <Outlet />
+//       <Footer> this is footer</Footer>
+//     </>
+//   );
+// }
+
+// export default App;

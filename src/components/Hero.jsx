@@ -1,9 +1,10 @@
 import React from "react";
+import BannerImg from "../assets/horrorB.jpg";
 
 const Hero = () => {
   return (
     <div>
-      <h2>Hero</h2>
+      <img className="w-screen h-fit" src={BannerImg} alt="Banner Image" />
     </div>
   );
 };

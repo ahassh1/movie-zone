@@ -2,14 +2,16 @@ import React from "react";
 import { Outlet } from "react-router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-red-400 min-h-[calc(100vh-284px)]">
+      <Hero />
+      {/* <div className="min-h-[calc(100vh-284px)]">
         <Outlet />
-      </div>
+      </div> */}
       <Footer />
     </>
   );
