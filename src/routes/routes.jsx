@@ -28,6 +28,10 @@ const router = createBrowserRouter([
         Component: About,
       },
       {
+        path: "/contact",
+        Component: About,
+      },
+      {
         path: "/phone-details",
         element: <PhoneDetails />,
       },

@@ -5,7 +5,7 @@ import { BiSolidCameraMovie } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className="navbar p-0 bg-base-100 shadow-sm">
+    <div className="navbar p-0 shadow-sm bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-primary-content">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="p-2 lg:hidden">
@@ -73,41 +73,129 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="font-bold text-xl">
-          Movie<span className="text-orange-500">Zone</span>
+          <span className="text-white">Movie</span>
+          <span className="text-orange-500">Zone</span>
         </a>
       </div>
 
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 cursor-pointer">
           <li>
             <NavLink
-              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
               to="/"
+              className={({ isActive }) =>
+                isActive ? "text-orange-500" : "text-white"
+              }
             >
               Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "text-orange-500" : "text-white"
+              }
+            >
+              About
+            </NavLink>
+          </li>
+
+          {/* Movie Types dropdown */}
+          <li className="relative group">
+            <span className="text-white cursor-pointer">Movie-Types</span>
+            <ul className="absolute hidden group-hover:block bg-white text-black shadow-lg mt-2 p-2 rounded-md w-48 z-50">
+              <li>
+                <NavLink
+                  to="/type/violence"
+                  className="hover:text-orange-500 block px-2 py-1"
+                >
+                  Violence
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/type/extreme-horror"
+                  className="hover:text-orange-500 block px-2 py-1"
+                >
+                  Extreme Horror
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/type/horror-comedy"
+                  className="hover:text-orange-500 block px-2 py-1"
+                >
+                  Horror Comedy
+                </NavLink>
+              </li>
+            </ul>
+          </li>
+
+          {/* Movie Types dropdown */}
+          <li className="relative group">
+            <span className="text-white cursor-pointer">Movie-List</span>
+            <ul className="absolute hidden group-hover:block bg-white text-black shadow-lg mt-2 p-2 rounded-md w-48 z-50">
+              <li>
+                <NavLink
+                  to="/type/violence"
+                  className="hover:text-orange-500 block px-2 py-1"
+                >
+                  Horror-Drama
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/type/extreme-horror"
+                  className="hover:text-orange-500 block px-2 py-1"
+                >
+                  Horror-Night
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/type/horror-comedy"
+                  className="hover:text-orange-500 block px-2 py-1"
+                >
+                  Horror-series
+                </NavLink>
+                <NavLink
+                  to="/type/horror-comedy"
+                  className="hover:text-orange-500 block px-2 py-1"
+                >
+                  Horror-Hunting
+                </NavLink>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? "text-orange-500" : "text-white"
+              }
+            >
+              Contact Now
             </NavLink>
           </li>
 
           <li>
             <NavLink
-              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
-              to="/about"
-            >
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
               to="/cart"
+              className={({ isActive }) =>
+                isActive ? "text-orange-500" : "text-white"
+              }
             >
               <BiSolidCameraMovie size={20} />
             </NavLink>
           </li>
           <li>
             <NavLink
-              className={({ isActive }) => (isActive ? "text-indigo-700" : " ")}
               to="/favorite"
+              className={({ isActive }) =>
+                isActive ? "text-orange-500" : "text-white"
+              }
             >
               <MdFavorite size={20} />
             </NavLink>

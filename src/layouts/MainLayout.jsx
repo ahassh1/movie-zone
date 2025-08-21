@@ -8,14 +8,9 @@ const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <Hero />
-      </div>
-
-      {/* <div className="min-h-[calc(100vh-284px)] py-5">
+      <div className="min-h-[calc(100vh-284px)]">
         <Outlet />
-      </div> */}
-
+      </div>
       <Footer />
     </>
   );
