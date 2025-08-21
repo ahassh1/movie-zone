@@ -4,7 +4,11 @@ import BannerImg from "../assets/horror1.jpg";
 const Hero = () => {
   return (
     <div>
-      <img className="w-full h-[85vh]" src={BannerImg} alt="banner-image" />
+      <img
+        className="w-full h-[85vh] object-cover object-center"
+        src={BannerImg}
+        alt="banner-image"
+      />
     </div>
   );
 };
