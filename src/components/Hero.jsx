@@ -23,9 +23,21 @@ const Hero = () => {
           Dive into the darkest corners of cinema — explore horror, violence,
           and twisted comedy like never before.
         </p>
-        <button className="bg-blue-500 cursor-pointer hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
-          Explore Now
-        </button>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-1">
+          <form>
+            <input
+              type="text"
+              placeholder="search your movies now"
+              className="bg-white border border-gray-300 rounded shadow-md py-2 md:px-16 px-9 focus:outline-none focus:shadow-outline"
+            />
+          </form>
+          <button
+            className="bg-blue-500 cursor-pointer
+         hover:bg-orange-600 text-white font-semibold py-2 px-5 rounded-r-md transition duration-300"
+          >
+            Explore Now
+          </button>
+        </div>
       </div>
     </div>
   );
