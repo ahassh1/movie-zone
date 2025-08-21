@@ -5,7 +5,7 @@ import { BiSolidCameraMovie } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className="px-8 md:px-12 lg:px-16 xl:px-24 navbar p-0 shadow-sm bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-primary-content">
+    <div className="px-4 md:px-6 lg:px-8 xl:px-12 navbar p-0 shadow-sm bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-primary-content">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="p-2 lg:hidden">

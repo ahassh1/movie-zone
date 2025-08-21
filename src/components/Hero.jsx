@@ -3,12 +3,30 @@ import BannerImg from "../assets/horror1.jpg";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="relative w-full h-[85vh] rounded-lg overflow-hidden">
+      {/* Background Image */}
       <img
-        className="w-full h-[85vh] object-cover object-center rounded-lg"
+        className="w-full h-full object-cover object-center"
         src={BannerImg}
         alt="banner-image"
       />
+
+      {/* Overlay Content */}
+      <div className="absolute inset-0 bg-black/60 flex flex-col justify-center items-center text-center p-4">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+          Welcome to{" "}
+          <span className="text-blue-400 hover:text-orange-600 cursor-pointer">
+            MovieZone
+          </span>
+        </h1>
+        <p className="text-white text-lg md:text-xl mb-6 max-w-2xl">
+          Dive into the darkest corners of cinema — explore horror, violence,
+          and twisted comedy like never before.
+        </p>
+        <button className="bg-blue-500 cursor-pointer hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
+          Explore Now
+        </button>
+      </div>
     </div>
   );
 };
