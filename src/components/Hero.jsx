@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div>
       <img
-        className="w-full h-[85vh] object-cover object-center"
+        className="w-full h-[85vh] object-cover object-center rounded-lg"
         src={BannerImg}
         alt="banner-image"
       />

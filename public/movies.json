@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "The Exorcist: Believer",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/qVKirUdmoex8SdfUk8WDDWwrcCh.jpg",
+    "description": "When two girls disappear into the woods and return possessed, their families confront pure evil.",
+    "director": "David Gordon Green",
+    "cast": "Leslie Odom Jr., Ellen Burstyn"
+  },
+  {
+    "id": 2,
+    "title": "Talk to Me",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,4d1e62)/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+    "description": "A group of friends discover how to conjure spirits using an embalmed hand - with terrifying consequences.",
+    "director": "Danny Philippou",
+    "cast": "Sophie Wilde, Joe Bird"
+  },
+  {
+    "id": 3,
+    "title": "Evil Dead Rise",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+    "description": "A twisted tale of two estranged sisters whose reunion is cut short by demonic forces.",
+    "director": "Lee Cronin",
+    "cast": "Lily Sullivan, Alyssa Sutherland"
+  },
+  {
+    "id": 4,
+    "title": "Smile",
+    "year": 2022,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,ff0000)/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+    "description": "After witnessing a bizarre traumatic incident, a doctor becomes convinced something supernatural is haunting her.",
+    "director": "Parker Finn",
+    "cast": "Sosie Bacon, Kyle Gallner"
+  },
+  {
+    "id": 5,
+    "title": "The Nun II",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,4b0082)/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg",
+    "description": "1956 France - a priest is murdered and evil is spreading. Sister Irene faces Valak again.",
+    "director": "Michael Chaves",
+    "cast": "Taissa Farmiga, Bonnie Aarons"
+  },
+  {
+    "id": 6,
+    "title": "M3GAN",
+    "year": 2023,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,00bfff)/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
+    "description": "A robotics engineer creates an AI doll that becomes violently protective of her orphaned niece.",
+    "director": "Gerard Johnstone",
+    "cast": "Allison Williams, Violet McGraw"
+  },
+  {
+    "id": 7,
+    "title": "Barbarian",
+    "year": 2022,
+    "image": "https://i.pinimg.com/736x/6f/41/e6/6f41e6a4da7b3ce883a67d6a02d8ed62.jpg",
+    "description": "A woman discovers the rental home she booked is already occupied by a stranger with a terrifying secret.",
+    "director": "Zach Cregger",
+    "cast": "Georgina Campbell, Bill Skarsgård"
+  },
+  {
+    "id": 8,
+    "title": "X",
+    "year": 2022,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/woTQx9Q4b8aO13jR9dsj8C9JESy.jpg",
+    "description": "In 1979, a group of young filmmakers set out to make an adult film on a rural Texas farm.",
+    "director": "Ti West",
+    "cast": "Mia Goth, Jenna Ortega"
+  },
+  {
+    "id": 9,
+    "title": "Pearl",
+    "year": 2022,
+    "image": "https://alternativemovieposters.com/wp-content/uploads/2024/02/Alex-Craiu_Pearl.jpg",
+    "description": "Trapped on her family's isolated farm, Pearl must tend to her ailing father under her mother's watch.",
+    "director": "Ti West",
+    "cast": "Mia Goth, David Corenswet"
+  },
+  {
+    "id": 10,
+    "title": "The Black Phone",
+    "year": 2022,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,4b0082)/p9ZUzCyy9wRTDuuQexkQ78R2BgF.jpg",
+    "description": "A kidnapped boy receives calls on a disconnected phone from the killer's previous victims.",
+    "director": "Scott Derrickson",
+    "cast": "Ethan Hawke, Mason Thames"
+  },
+  {
+    "id": 11,
+    "title": "Hereditary",
+    "year": 2018,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,556b2f)/lHV8HHlhwNup2VbpiACtlKzaGIQ.jpg",
+    "description": "After the death of her secretive grandmother, a woman's family begins unraveling terrifying secrets.",
+    "director": "Ari Aster",
+    "cast": "Toni Collette, Alex Wolff"
+  },
+  {
+    "id": 12,
+    "title": "The Conjuring",
+    "year": 2013,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+    "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence.",
+    "director": "James Wan",
+    "cast": "Vera Farmiga, Patrick Wilson"
+  },
+  {
+    "id": 13,
+    "title": "The Babadook",
+    "year": 2014,
+    "image": "https://i.ebayimg.com/images/g/L~AAAOSwrklVH7pU/s-l1200.jpg",
+    "description": "A single mother and her child fall into a deep well of paranoia when an eerie children's book manifests their worst fears.",
+    "director": "Jennifer Kent",
+    "cast": "Essie Davis, Noah Wiseman"
+  },
+  {
+    "id": 14,
+    "title": "It Follows",
+    "year": 2014,
+    "image": "https://i.pinimg.com/564x/04/bb/bf/04bbbff375cb2c40800688ac59d607f1.jpg",
+    "description": "A young woman is followed by an unknown supernatural force after a sexual encounter.",
+    "director": "David Robert Mitchell",
+    "cast": "Maika Monroe, Keir Gilchrist"
+  },
+  {
+    "id": 15,
+    "title": "Get Out",
+    "year": 2017,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,006400)/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+    "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness grows into outright terror.",
+    "director": "Jordan Peele",
+    "cast": "Daniel Kaluuya, Allison Williams"
+  },
+  {
+    "id": 16,
+    "title": "A Quiet Place",
+    "year": 2018,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,4682b4)/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+    "description": "In a post-apocalyptic world, a family must live in silence to avoid mysterious creatures that hunt by sound.",
+    "director": "John Krasinski",
+    "cast": "Emily Blunt, John Krasinski"
+  },
+  {
+    "id": 17,
+    "title": "The Witch",
+    "year": 2015,
+    "image": "https://i.etsystatic.com/6285100/r/il/f1a79a/6473750265/il_1080xN.6473750265_nsfl.jpg",
+    "description": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic and possession.",
+    "director": "Robert Eggers",
+    "cast": "Anya Taylor-Joy, Ralph Ineson"
+  },
+  {
+    "id": 18,
+    "title": "Hush",
+    "year": 2016,
+    "image": "https://www.filmofilia.com/wp-content/uploads/2024/10/Hush-Poster-1.jpg",
+    "description": "A deaf writer must fight for her life in silence when a masked killer appears at her isolated home.",
+    "director": "Mike Flanagan",
+    "cast": "Kate Siegel, John Gallagher Jr."
+  },
+  {
+    "id": 19,
+    "title": "The Ritual",
+    "year": 2017,
+    "image": "https://i.ebayimg.com/images/g/Km0AAOSwxW1ncTAx/s-l1200.jpg",
+    "description": "A group of college friends reunite for a trip to a forest in Sweden, where they encounter a menacing presence.",
+    "director": "David Bruckner",
+    "cast": "Rafe Spall, Arsher Ali"
+  },
+  {
+    "id": 20,
+    "title": "Autopsy of Jane Doe",
+    "year": 2016,
+    "image": "https://i.pinimg.com/474x/d8/44/9a/d8449a50b842349af8af4b9b9b33fc63.jpg",
+    "description": "A father and son coroner team receive a mysterious unidentified corpse with no apparent cause of death.",
+    "director": "André Øvredal",
+    "cast": "Emile Hirsch, Brian Cox"
+  },
+  {
+    "id": 21,
+    "title": "The Lighthouse",
+    "year": 2019,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,808080)/3nk9UoepYmv1G9oP18q6JJCeYwN.jpg",
+    "description": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
+    "director": "Robert Eggers",
+    "cast": "Willem Dafoe, Robert Pattinson"
+  },
+  {
+    "id": 22,
+    "title": "Midsommar",
+    "year": 2019,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,ffd700)/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+    "description": "A couple travels to Sweden to visit a rural hometown's fabled mid-summer festival, but what begins as an idyllic retreat quickly devolves into chaos.",
+    "director": "Ari Aster",
+    "cast": "Florence Pugh, Jack Reynor"
+  },
+  {
+    "id": 23,
+    "title": "The Invisible Man",
+    "year": 2020,
+    "image": "https://m.media-amazon.com/images/I/91qVZAHhKiL._AC_UF894,1000_QL80_.jpg",
+    "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax.",
+    "director": "Leigh Whannell",
+    "cast": "Elisabeth Moss, Oliver Jackson-Cohen"
+  },
+  {
+    "id": 24,
+    "title": "His House",
+    "year": 2020,
+    "image": "https://fwcdn.pl/fpo/23/19/862319/7935528_2.3.jpg",
+    "description": "A refugee couple makes a harrowing escape from war-torn South Sudan, but soon experience strange phenomena in their new British home.",
+    "director": "Remi Weekes",
+    "cast": "Wunmi Mosaku, Sope Dirisu"
+  },
+  {
+    "id": 25,
+    "title": "The Night House",
+    "year": 2021,
+    "image": "https://m.media-amazon.com/images/M/MV5BN2I4YTdkMGUtYmEzYS00NWEwLWE2OGQtMjE3NzNhZjM1Nzc3XkEyXkFqcGc@._V1_.jpg",
+    "description": "A widow begins to uncover her recently deceased husband's disturbing secrets while living alone in the lakeside home he built for her.",
+    "director": "David Bruckner",
+    "cast": "Rebecca Hall, Sarah Goldberg"
+  },
+  {
+    "id": 26,
+    "title": "Malignant",
+    "year": 2021,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/xdmmd437QdjcCls8yCQxrH5YYM4.jpg",
+    "description": "A woman begins to have terrifying visions of brutal murders, only to discover they're actually happening in real life.",
+    "director": "James Wan",
+    "cast": "Annabelle Wallis, Maddie Hasson"
+  },
+  {
+    "id": 27,
+    "title": "Titane",
+    "year": 2021,
+    "image": "https://i.pinimg.com/736x/b0/41/61/b041610ff5a7fb9e32404ef325e853c2.jpg",
+    "description": "A woman with a metal plate in her head from a childhood car accident descends into criminality and bizarre body horror.",
+    "director": "Julia Ducournau",
+    "cast": "Agathe Rousselle, Vincent Lindon"
+  },
+  {
+    "id": 28,
+    "title": "Annabelle",
+    "year": 2014,
+    "image": "https://i.ebayimg.com/images/g/e7gAAOSwRSNjyUYw/s-l1200.jpg",
+    "description": "A couple begins to experience terrifying supernatural occurrences involving a vintage doll shortly after their home is invaded by satanic cultists.",
+    "director": "John R. Leonetti",
+    "cast": "Annabelle Wallis, Ward Horton, Alfre Woodard"
+  },
+  {
+    "id": 29,
+    "title": "It",
+    "year": 2017,
+    "image": "https://image.tmdb.org/t/p/w1280_filter(duotone,000000,8b0000)/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+    "description": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+    "director": "Andy Muschietti",
+    "cast": "Bill Skarsgård, Jaeden Martell, Finn Wolfhard"
+  },
+  {
+    "id": 30,
+    "title": "Terrifier 2",
+    "year": 2022,
+    "image": "https://i.ebayimg.com/images/g/iDwAAOSwpAtj0aJm/s-l1200.jpg",
+    "description": "After being resurrected by a sinister entity, Art the Clown returns to the timid town of Miles County to terrorize a teenage girl and her younger brother on Halloween night.",
+    "director": "Damien Leone",
+    "cast": "Lauren LaVera, David Howard Thornton"
+  }
+]
