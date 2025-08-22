@@ -1,7 +1,7 @@
 import React from "react";
 
 const MovieCard = ({ movie }) => {
-  const { title, image, description, cast, director } = movie;
+  const { title, image, description, cast, director } = movie || {};
   return (
     <div>
       <div className="card bg-sky-100 w-96 shadow-xl/20 my-4">
