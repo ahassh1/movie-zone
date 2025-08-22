@@ -1,11 +1,16 @@
 import React from "react";
 import Hero from "../components/Hero";
+import { useLoaderData } from "react-router";
+import MoviesContainer from "../components/MoviesContainer";
 
 const Home = () => {
+  //data
+  const data = useLoaderData();
+  console.log(data);
   return (
     <div>
       <Hero />
-      <h2>Phones container</h2>
+      <MoviesContainer movies={data} />
     </div>
   );
 };

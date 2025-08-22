@@ -2,10 +2,12 @@ import { createBrowserRouter } from "react-router";
 
 import Home from "../pages/Home";
 import About from "../pages/About";
-import PhoneDetails from "../pages/PhoneDetails";
+
 import MainLayout from "../layouts/MainLayout";
 import ErrorPage from "../pages/ErrorPage";
 import Favorite from "../pages/Favorite";
+import Contact from "../pages/Contact";
+import MovieDetails from "../pages/MovieDetails";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,7 @@ const router = createBrowserRouter([
         // index: true, or
         path: "/",
         Component: Home,
+        loader: () => fetch("movies.json"),
       },
       {
         path: "/favorite",
@@ -29,11 +32,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        Component: About,
+        Component: Contact,
       },
       {
-        path: "/phone-details",
-        element: <PhoneDetails />,
+        path: "/movie-details",
+        Component: MovieDetails,
       },
     ],
   },
