@@ -3,10 +3,15 @@ import MovieCard from "../pages/MovieCard";
 
 const MoviesContainer = ({ movies }) => {
   const [displayMovies, setDisplayMovies] = useState([]);
+  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    setDisplayMovies(movies.slice(0, 9));
-  }, []);
+    if (showAll) {
+      setDisplayMovies(movies);
+    } else {
+      setDisplayMovies(movies.slice(0, 6));
+    }
+  }, [movies, showAll]);
 
   return (
     <div className=" py-12">
@@ -16,6 +21,7 @@ const MoviesContainer = ({ movies }) => {
         ))}
       </div>
       <button
+        onClick={() => setShowAll((prv) => !prv)}
         href="#_"
         className="px-5 py-2.5 relative rounded group font-medium text-white mt-2 md:mt-5 lg:mt-7 xl:mt-9 inline-block cursor-pointer"
       >
