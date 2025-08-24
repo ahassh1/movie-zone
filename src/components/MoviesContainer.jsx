@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import MovieCard from "../pages/MovieCard";
 
 const MoviesContainer = ({ movies }) => {
+  const [displayMovies, setDisplayMovies] = useState([]);
+
+  useEffect(() => {
+    setDisplayMovies(movies.slice(0, 9));
+  }, []);
+
   return (
     <div className=" py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {movies.map((movie) => (
+        {displayMovies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
         ))}
       </div>
