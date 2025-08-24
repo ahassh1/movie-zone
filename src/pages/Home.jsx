@@ -6,10 +6,13 @@ import MoviesContainer from "../components/MoviesContainer";
 const Home = () => {
   //data
   const data = useLoaderData();
-  console.log(data);
+  const handleSearch= (e,text) =>{
+    e.preventDefault();
+    console.log(text);
+  }
   return (
     <div>
-      <Hero />
+      <Hero handleSearch={={handleSearch}}/>
       <MoviesContainer movies={data} />
     </div>
   );
