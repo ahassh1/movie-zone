@@ -27,6 +27,7 @@ const Hero = ({ handleSearch }) => {
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-1">
           <form>
+            onSubmit={(e) => handleSearch(e, searchText)}
             <input
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
