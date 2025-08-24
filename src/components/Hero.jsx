@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import BannerImg from "../assets/horror1.jpg";
 
-const Hero = () => {
+const Hero = ({ handleSearch }) => {
+  const [searchText, setSearchText] = useState("");
+  console.log(searchText);
   return (
     <div className="relative w-full h-[85vh] rounded-lg overflow-hidden">
       {/* Background Image */}
@@ -26,6 +28,8 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-1">
           <form>
             <input
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
               type="text"
               placeholder="search your movies now"
               className="bg-white border border-gray-300 rounded shadow-md py-2 md:px-16 px-9 focus:outline-none focus:shadow-outline mb-3 md:mb-0"
