@@ -26,8 +26,14 @@ const Hero = ({ handleSearch }) => {
           and twisted comedy like never before.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-1">
-          <form>
-            onSubmit={(e) => handleSearch(e, searchText)}
+          <form
+            onSubmit={(e) => {
+              handleSearch(e, searchText);
+              //reset input state
+              setSearchText("");
+            }}
+            className="flex"
+          >
             <input
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
@@ -35,13 +41,15 @@ const Hero = ({ handleSearch }) => {
               placeholder="search your movies now"
               className="bg-white border border-gray-300 rounded shadow-md py-2 md:px-16 px-9 focus:outline-none focus:shadow-outline mb-3 md:mb-0"
             />
+            <button
+              type="submit"
+              className="bg-blue-500 hover:bg-orange-600
+               text-white font-semibold py-2 px-5 rounded-r-md transition 
+               duration-500"
+            >
+              Explore Now
+            </button>
           </form>
-          <button
-            className="bg-blue-500 cursor-pointer
-         hover:bg-orange-600 text-white font-semibold py-2 px-5 rounded-r-md transition duration-500"
-          >
-            Explore Now
-          </button>
         </div>
       </div>
     </div>

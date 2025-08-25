@@ -18,6 +18,7 @@ const router = createBrowserRouter([
         // index: true, or
         path: "/",
         Component: Home,
+        hydrateFallbackElement: <p>Loading , please wait ....</p>,
         loader: () => fetch("movies.json"),
       },
       {
