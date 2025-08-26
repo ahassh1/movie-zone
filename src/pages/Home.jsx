@@ -10,6 +10,8 @@ const Home = () => {
   const handleSearch = (e, text) => {
     e.preventDefault();
     // console.log(text);
+    if (text === "") return setMovies(data);
+
     const searchedMovies = data.filter(
       (movie) =>
         movie?.title?.toLowerCase().includes(text.toLowerCase()) ||
