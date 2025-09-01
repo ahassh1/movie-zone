@@ -17,20 +17,22 @@ const MovieCard = ({ movie }) => {
         <div className="card-body">
           <div className="justify-between items-center flex">
             <div>
-              <h2 className="card-title">{title}</h2>
+              <h1 className="card-title text-gray-700">{title}</h1>
             </div>
             <div>
-              <h2>
-                <span className="font-semibold">Cast:</span> {cast.slice(0, 20)}
+              <h2 className="flex">
+                <span className="font-semibold text-gray-500">Cast:</span>
+                <p className="text-gray-500">{cast.slice(0, 15)}</p>
               </h2>
             </div>
           </div>
-          <p className="text-gray-600">{description.slice(0, 100)}</p>
+          <p className="text-gray-500">{description.slice(0, 100)}</p>
 
           <div className="card-actions justify-between items-center">
             <div>
-              <h3 className="font-semibold text-[15px]">
-                Director: <span className="text-gray-500">{director}</span>
+              <h3 className="font-semibold text-[15px] text-gray-600">
+                Director:{" "}
+                <span className="text-gray-500 text-[14px]">{director}</span>
               </h3>
             </div>
 
