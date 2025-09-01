@@ -50,10 +50,10 @@ const Hero = ({ handleSearch }) => {
               type="text"
               placeholder="search your movies now"
               className="bg-white border border-gray-300
-               rounded shadow-md py-2 md:px-16 px-9 focus:outline-none focus:shadow-outline mb-2 md:mb-0"
+               rounded shadow-md py-2 md:px-17 px-9 focus:outline-none focus:shadow-outline mb-2 md:mb-0"
             />
-            <Button type="submit" label="Explore Now" />
           </form>
+          <Button type="submit" label="Explore Now" />
         </div>
       </div>
     </div>

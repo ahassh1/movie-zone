@@ -6,12 +6,12 @@ const MovieCard = ({ movie }) => {
   const { title, image, description, cast, director, id } = movie || {};
   return (
     <div>
-      <div className="card bg-sky-100 w-96 shadow-xl/20 my-4">
-        <figure>
+      <div className="card bg-sky-100 w-96 shadow-xl/20 my-4 mx-auto">
+        <figure className="overflow-hidden">
           <img
-            className=" w-[320px] h-[330px] object-cover"
             src={image}
-            alt="title"
+            alt={title}
+            className="w-full h-60  object-cover transition-transform duration-300 hover:scale-110"
           />
         </figure>
         <div className="card-body">
