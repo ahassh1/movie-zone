@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
+import Button from "../components/ui/Button";
 
 const MovieDetails = () => {
   const data = useLoaderData();
@@ -12,13 +13,16 @@ const MovieDetails = () => {
   return (
     <div className="py-10">
       <img
-        className="w-[450px] h-[250px] object-cover object-center mx-auto"
+        className="w-[440px] h-[250px] object-cover object-center mx-auto"
         src={image}
         alt="banner-image"
       />
       <div className="flex justify-between">
         <h1 className="text-5xl font-thin">{title}</h1>
-        <button>button</button>
+        <div className="flex space-x-4">
+          <Button label="cart" />
+          <Button label="favorite" />
+        </div>
       </div>
     </div>
   );

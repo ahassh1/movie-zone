@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import Button from "../components/ui/Button";
 
 const MovieCard = ({ movie }) => {
   const { title, image, description, cast, director, id } = movie || {};
@@ -32,16 +33,9 @@ const MovieCard = ({ movie }) => {
                 Director: <span className="text-gray-500">{director}</span>
               </h3>
             </div>
-            {/* <div>
-              {" "}
-              <button className="btn btn-primary hover:bg-orange-600 transition duration-500 hover:border-none border-none">
-                More Details
-              </button>
-            </div> */}
+
             <Link to={`/movie-details/${id}`}>
-              <button className="btn btn-primary hover:bg-orange-600 transition duration-500 hover:border-none border-none">
-                More Details
-              </button>
+              <Button label="More Details" />
             </Link>
           </div>
         </div>
