@@ -34,8 +34,9 @@ const router = createBrowserRouter([
         Component: Contact,
       },
       {
-        path: "/movie-details",
+        path: "/movie-details/:polash",
         Component: MovieDetails,
+        loader: () => fetch("../movies.json"),
       },
     ],
   },

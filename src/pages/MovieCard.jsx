@@ -1,7 +1,7 @@
 import React from "react";
 
 const MovieCard = ({ movie }) => {
-  const { title, image, description, cast, director } = movie || {};
+  const { title, image, description, cast, director, id } = movie || {};
   return (
     <div>
       <div className="card bg-sky-100 w-96 shadow-xl/20 my-4">
@@ -31,12 +31,17 @@ const MovieCard = ({ movie }) => {
                 Director: <span className="text-gray-500">{director}</span>
               </h3>
             </div>
-            <div>
+            {/* <div>
               {" "}
               <button className="btn btn-primary hover:bg-orange-600 transition duration-500 hover:border-none border-none">
                 More Details
               </button>
-            </div>
+            </div> */}
+            <Link to={`/movie-details/${id}`}>
+              <button className="btn btn-primary hover:bg-orange-600 transition duration-500 hover:border-none border-none">
+                More Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

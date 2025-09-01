@@ -3,7 +3,7 @@ import BannerImg from "../assets/horror1.jpg";
 
 const Hero = ({ handleSearch }) => {
   const [searchText, setSearchText] = useState("");
-  console.log(searchText);
+  // console.log(searchText);
   return (
     <div className="relative w-full h-[85vh] rounded-lg overflow-hidden">
       {/* Background Image */}
