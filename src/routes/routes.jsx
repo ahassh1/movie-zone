@@ -3,9 +3,10 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import MainLayout from "../layouts/MainLayout";
 import ErrorPage from "../pages/ErrorPage";
-import Favorite from "../pages/Favorite";
+
 import Contact from "../pages/Contact";
 import MovieDetails from "../pages/MovieDetails";
+import Favorite from "../pages/Favorite";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
 
     children: [
       {
-        // index: true, or
+        // index: true,
         path: "/",
         Component: Home,
         hydrateFallbackElement: <p>Loading , please wait ....</p>,
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/favorite",
-        element: <Favorite />,
+        // element: <Favorites />,
+        Component: Favorite,
       },
       {
         path: "/about",
