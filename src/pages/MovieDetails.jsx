@@ -1,6 +1,8 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import Button from "../components/ui/Button";
+import { MdFavorite } from "react-icons/md";
+import { BiSolidCameraMovie } from "react-icons/bi";
 
 const MovieDetails = () => {
   const data = useLoaderData();
@@ -13,15 +15,15 @@ const MovieDetails = () => {
   return (
     <div className="py-10">
       <img
-        className="w-[440px] h-[250px] object-cover object-center mx-auto"
+        className="w-[460px] h-[260px] object-cover object-center mx-auto"
         src={image}
         alt="banner-image"
       />
-      <div className="flex justify-between">
+      <div className="flex justify-between pt-5">
         <h1 className="text-5xl font-thin">{title}</h1>
         <div className="flex space-x-4">
-          <Button label="cart" />
-          <Button label="favorite" />
+          <Button label={<BiSolidCameraMovie size={20} />} />
+          <Button label={<MdFavorite size={20} />} />
         </div>
       </div>
     </div>
