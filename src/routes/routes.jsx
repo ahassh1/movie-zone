@@ -6,7 +6,6 @@ import ErrorPage from "../pages/ErrorPage";
 import Favorite from "../pages/Favorite";
 import Contact from "../pages/Contact";
 import MovieDetails from "../pages/MovieDetails";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,7 +18,7 @@ const router = createBrowserRouter([
         path: "/",
         Component: Home,
         hydrateFallbackElement: <p>Loading , please wait ....</p>,
-        loader: () => fetch("movies.json"),
+        loader: () => fetch("../movies.json"),
       },
       {
         path: "/favorite",
@@ -34,7 +33,7 @@ const router = createBrowserRouter([
         Component: Contact,
       },
       {
-        path: "/movie-details/:polash",
+        path: "/movie-details/:id",
         Component: MovieDetails,
         loader: () => fetch("../movies.json"),
       },

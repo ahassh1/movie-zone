@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const MovieCard = ({ movie }) => {
   const { title, image, description, cast, director, id } = movie || {};

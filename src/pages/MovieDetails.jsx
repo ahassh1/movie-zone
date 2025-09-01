@@ -1,8 +1,10 @@
 import React from "react";
-import { useLoaderData } from "react-router";
+import { useLoaderData, useParams } from "react-router";
 
 const MovieDetails = () => {
   const data = useLoaderData();
+  const { id } = useParams();
+  console.log(id);
   console.log(data);
   return (
     <div>
