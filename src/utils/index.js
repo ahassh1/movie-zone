@@ -36,3 +36,10 @@ export const addFavorite = (movie) => {
   localStorage.setItem("favorite", JSON.stringify(favorite));
   return favorite;
 };
+
+// remove card form localhost
+export const removeFavorite = (id) => {
+  const favorite = getFavorite();
+  const remainignFavorite = favorite.filter((phone) => phone.id !== id);
+  localStorage.setItem("favorite", JSON.stringify(remainignFavorite));
+};
