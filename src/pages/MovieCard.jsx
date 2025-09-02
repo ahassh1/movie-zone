@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router"; // ✅ FIXED: was 'react-router'
+import { Link } from "react-router";
 import Button from "../components/ui/Button";
 import { MdDeleteForever } from "react-icons/md";
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movie, deletable }) => {
   const { title, image, description, cast, director, id } = movie || {};
 
   return (
-    // ✅ Set this wrapper to relative
     <div className="relative w-96 my-4 mx-auto">
       <div className="card bg-sky-100 shadow-xl/20">
         <figure className="overflow-hidden">
@@ -42,6 +41,14 @@ const MovieCard = ({ movie }) => {
           </div>
         </div>
       </div>
+      {deletable && (
+        <div className="absolute -top-2 -right-2 bg-gray-900 p-3 ml-5 rounded-full hover:bg-gray-300 group cursor-pointer">
+          <MdDeleteForever
+            size={20}
+            className="text-gray-100 group-hover:text-gray-900"
+          />
+        </div>
+      )}
     </div>
   );
 };
