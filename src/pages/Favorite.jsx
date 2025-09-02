@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 import { getFavorite, removeFavorite } from "../utils";
+import EmptyState from "../components/ui/EmptyState";
 
 const Favorite = () => {
   const [displayMovies, setDisplayMovies] = useState([]);
@@ -12,7 +13,8 @@ const Favorite = () => {
     removeFavorite(id);
     setDisplayMovies(getFavorite);
   };
-  console.log(displayMovies);
+  // console.log(displayMovies);
+  if (displayMovies.length < 1) return <EmptyState />;
   return (
     <div className=" py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
