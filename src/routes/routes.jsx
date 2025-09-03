@@ -37,6 +37,7 @@ const router = createBrowserRouter([
       {
         path: "/movie-details/:id",
         Component: MovieDetails,
+        hydrateFallbackElement: <p>Loading , please wait ....</p>,
         loader: () => fetch("../movies.json"),
       },
     ],

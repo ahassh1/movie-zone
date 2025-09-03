@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router";
 import { MdFavorite } from "react-icons/md";
 import { BiSolidCameraMovie } from "react-icons/bi";
+import { CartContext } from "../providers/Contexts";
 
 const Navbar = () => {
+  // const { cart } = useContext(CartContext);
+  // console.log(cart);
   return (
     <div className="px-4 md:px-6 lg:px-8 xl:px-12 navbar p-0 shadow-sm bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-primary-content">
       <div className="navbar-start">
